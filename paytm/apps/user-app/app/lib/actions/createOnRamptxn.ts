@@ -1,7 +1,7 @@
 "use server"
 
 import { getServerSession } from "next-auth";
-import { authOptions } from "../lib/auth";
+import { authOptions } from "../auth";
 import prisma from "@repo/db/client";
 
 export async function createOnRamptxn(amount: number, provider: string) {
