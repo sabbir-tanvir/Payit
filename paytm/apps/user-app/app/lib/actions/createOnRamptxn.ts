@@ -28,7 +28,7 @@ export async function createOnRamptxn(amount: number, provider: string) {
     })
 
     return {
-        message: "Transaction created"
+        message: "Transaction happened successfully",
     } 
 
 
